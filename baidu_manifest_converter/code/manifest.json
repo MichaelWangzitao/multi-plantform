@@ -1,0 +1,25 @@
+{
+  "lang": "en-US",
+  "app_id": "org.example.miniapp",
+  "name": "MiniApp Demo",
+  "short_name": "MiniApp",
+  "version": {
+    "name": "1.0.1",
+    "code": 11
+  },
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigation_bar_background_color": "#ffffff",
+    "navigation_bar_text_style": "black",
+    "navigation_bar_title_text": "智能小程序",
+    "background_text_style": "light"
+  },
+  "req_permissions": [
+    {
+      "name": "scope.userLocation",
+      "reason": "To show user's position"
+    }
+  ]	  
+}
